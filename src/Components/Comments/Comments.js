@@ -14,7 +14,7 @@ const Comments = ({postId,setCommentBoxOpen,showAllComments,commentBoxOpen,comme
     const handleSubmit=async(event)=>{     
         event.preventDefault() 
         setCommentBoxOpen(false)
-        await addDoc(collection(db,'posts', postId,'comments'),{                                                         
+        await addDoc(collection(db,'posts', postId,'comments'),{                                                          // add a document //                  
                                                                 input:input,
                                                                 username:user.displayName,
                                                                 photoURL:user.photoURL,
