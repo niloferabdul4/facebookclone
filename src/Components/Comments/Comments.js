@@ -5,8 +5,6 @@ import React, { useContext, useState } from 'react';
 import { AppContext } from '../../Context/AppContext';
 import * as C from './style'
 
-
-
 const Comments = ({postId,setCommentBoxOpen,showAllComments,commentBoxOpen,commentsList,setCommentsList}) => {
     const {user}=useContext(AppContext)  
     const [input,setInput]=useState('')      
