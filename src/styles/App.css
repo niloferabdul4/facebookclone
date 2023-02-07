@@ -1,0 +1,18 @@
+*
+{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.App{
+  background-color: #f1f2f5;
+  width: fit-content;
+  min-width: 100vw;
+  font-family: 'Roboto';
+  
+}
+
+.app_body{
+display: flex;
+}
+
