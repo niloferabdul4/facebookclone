@@ -11,8 +11,7 @@ const Login = () => {
     const navigate=useNavigate()
     const {user,setUser}=useContext(AppContext)
         const handleLogin=async()=>
-        {
-                //event.preventDefault()             
+        {                    
                 await signInWithPopup(auth,provider)
                 .then((authUser)=>{  
                     console.log(authUser)
@@ -23,9 +22,7 @@ const Login = () => {
                         })
               .catch((error)=>alert(error.message))
         }  
-          
-
-    
+             
     return (
         <>
         <C.LoginContainer>
