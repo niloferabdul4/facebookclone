@@ -13,6 +13,7 @@ box-sizing: border-box;
 }
 
 .app_body{
-display: flex;
+  display: flex;
+  overflow-x: hidden;
 }
 

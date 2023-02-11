@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { mobile } from "../../Responsive";
 
 const FeedContainer=styled.div`   
-    flex:0.6;
-    padding: 60px 180px;
+    flex:0.7;
+    padding: 60px 100px;
     position: relative;
     overflow-x: auto;
     height: inherit;
