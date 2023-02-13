@@ -28,8 +28,8 @@ const Login = () => {
         <C.LoginContainer>
            <C.Card>
                 <C.LeftSection>
-                    <C.MainTitle>Facebook</C.MainTitle>
-                    <C.Text>Connect with friends and the world around you on Facebook.</C.Text>
+                    <C.MainTitle>Socio</C.MainTitle>
+                    <C.Text>Connect with friends and the world around you on Socio.</C.Text>
                 </C.LeftSection>
                 <C.RightSection>
                     <C.SubTitle>Login</C.SubTitle>

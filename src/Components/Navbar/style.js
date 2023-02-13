@@ -53,9 +53,19 @@ const RightSection=styled.div`
       align-items: center;
       gap: 10px; 
       ${mobile({
+          
+
+         })} 
+      
+`
+
+const RightSectionMenus=styled.span`
+    ${mobile({
           display:'none'
 
          })} 
+
+
 `
 
 const Logo=styled.h3`
@@ -75,6 +85,7 @@ const Search=styled.div`
         border-radius: 5px;
         padding: 2px;
         border: 0.2px solid lightgrey;
+     
         
 `
 
@@ -84,18 +95,34 @@ const Input=styled.input`
         height:24px;
         text-indent: 6px;
         font-size: 1.05rem;
-        ${mobile({
-            display:'none'
-
-         })}
-`
+        ${mobile({       
+            width:'100px',
+            fontSize:'0.96rem'
+   })}
+      
+ `
 
 const User=styled.span`
         display:flex;
-        justify-content: center;
-        align-items: center;
-        gap:20px;
-        padding: 10px;
+        justify-content: flex-end;
+        align-items: center;      
+        
+   
+`
+
+const Logout=styled.h3`
+        font-weight:400;
+        color:darkslateblue;
+        margin-right:10px;
+        ${mobile({
+          
+          marginRight:'5px',
+          fontSize:'15px'
+                  
+        })}
+
+
+
 `
 const NavMenus=styled.div`
         display:flex;
@@ -111,4 +138,4 @@ const NavMenus=styled.div`
        
 `
 
-export {NavbarContainer,LeftSection,RightSection,CenterSection,Logo,Search,Input,User,NavMenus}
+export {NavbarContainer,LeftSection,RightSection,CenterSection,RightSectionMenus,Logo,Search,Input,User,Logout,NavMenus}

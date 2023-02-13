@@ -2,7 +2,6 @@ import React,{useState,useContext, useEffect} from 'react';
 import { Avatar } from '@mui/material';
 import Comments from '../Comments/Comments';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined'
-//import ShareOutlinedIcon from '@mui/icons-material/ShareOutlinedIcon';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
@@ -71,7 +70,7 @@ const Post = ({postId,photo,profilePic,username,timestamp,body}) => {
     return (
         <C.PostContainer>
             <C.TopPost>
-                <Avatar src={profilePic} />
+                <Avatar src={profilePic} sx={{height:'35px',width:'35px'}} />
                 <C.TopPostInfo>
                     <C.PostHeading>{username}</C.PostHeading>
                     <ReactTimeago  style={{fontSize: '12px', color:'gray' }} date={new Date(timestamp?.toDate()).toLocaleString()} />

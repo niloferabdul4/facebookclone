@@ -2,7 +2,7 @@ import React from 'react';
 import { Avatar } from '@mui/material';
 import * as C from './style'
 
-const Friends = ({Users}) => {
+const Suggested = ({Users}) => {
  
     return (
         <>
@@ -19,4 +19,4 @@ const Friends = ({Users}) => {
     );
 }
 
-export default Friends;
+export default Suggested;

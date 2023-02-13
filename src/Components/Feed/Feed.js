@@ -12,13 +12,13 @@ const Feed = () => {
     const {posts,setPosts}=useContext(AppContext)
      
     useEffect(() => {
-          const unSub = onSnapshot(collection(db, "posts"), (post) => {
-            setPosts(post.docs.map((doc) => ({ id: doc.id, data: doc.data() })));
-          });
-          return () => {
-            unSub();
-          };
-        }, []);
+      const unSub = onSnapshot(collection(db, "posts"), (post) => {
+        setPosts(post.docs.map((doc) => ({ id: doc.id, data: doc.data() })));
+      });
+      return () => {
+        unSub();
+      };
+    }, []);
     return (
         <FeedContainer>
             <StoryReels/>

@@ -94,7 +94,7 @@ const MessageSender = () => {
     return (
         <C.MessageContainer>
             <C.TopSection>
-                <Avatar src={user.photoURL} />
+                <Avatar src={user.photoURL} sx={{height:'35px',width:'35px'}} />
                 <C.Form >
                     <C.Textarea value={input} rows={2}  type='text' onChange={(event)=>{setInput(event.target.value)}} placeholder={`What's on your mind?,${user.displayName}`} />
                    {/*<UrlInput value={imageUrl} onChange= {(event)=> setImageUrl(event.target.value)} placeholder="Image URL (Optional)"/>*/}

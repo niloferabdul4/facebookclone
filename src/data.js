@@ -1,46 +1,46 @@
 
-export const Users = [
+export const SuggestedUsers = [
     {
       id: 1,
       name: "Janet Stephen",
       username: "janet_22",
       email: "amber@logan.tv",
-      profilePic: "/assets/users/friend4.jpg",
+      profilePic: "assets/users/friend4.jpg",
     },
     {
       id: 2,
       name: "Isabella Randy",
       username: "isabel_23",
       email: "isabella@randy.biz",
-      profilePic: "/assets/users/friend6.jpg",
+      profilePic: "assets/users/friend6.jpg",
     },
     {
       id: 3,
       name: "Beverly Bruce",
       username: "beverly_24",
       email: "Sherwood@rosamond.me",
-      profilePic: "/assets/users/friend7.jpg",
+      profilePic: "assets/users/friend7.jpg",
     },
     {
       id: 4,
       name: "Glenna Philip",
       username: "glenna_25",
       email: "Chaim_McDermott@dana.io",
-      profilePic: "/assets/users/friend10.jpg",
+      profilePic: "assets/users/friend10.jpg",
     },
      {
       id: 5,
       name: "Clementina Sean",
       username: "Alexis",
       email: "Rey.Padberg@karina.biz",
-      profilePic: "/assets/users/friend11.jpg"
+      profilePic: "assets/users/friend11.jpg"
      },
      {
         id: 6,
         name: "Merlin John",
         username: "Alexis",
         email: "John.berlin@karina.biz",
-        profilePic: "/assets/users/friend32.jpg"
+        profilePic: "assets/users/friend32.jpg"
        }
        
   ];
@@ -82,41 +82,41 @@ export const Friends = [
     {
         id: 1,
         username: "Muhammed Fahim",
-        profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        profilePic: "assets/users/friend32.jpg",
         
     },
     {
         id:2,
-        username:'Mohamed Abdul',
-        profilePic:'https://avatars.githubusercontent.com/u/43209472?v=4',
+        username:'Madonna',
+        profilePic:'assets/users/friend11.jpg',
        
         
         },
     {
         id: 3,
-        username: "Farzan",
-        profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        username: "Farzana",
+        profilePic: "assets/users/person3.jpg",
         
         
         },
     {
         id:4,
         username:'Steffy Kumar',
-        profilePic:'https://avatars.githubusercontent.com/u/43209472?v=4',
+        profilePic:'assets/users/person4.jpg',
         
         
     },
     {
         id: 5,
         username: "John Doe",
-        profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        profilePic: "assets/users/friend11.jpg",
         
         
       },
       {
         id: 6,
         username: "Rani Kamal",
-        profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        profilePic: "assets/users/friend7.jpg",
         
         
       },

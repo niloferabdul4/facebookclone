@@ -1,3 +1,4 @@
+import { padding } from "@mui/system";
 import styled from "styled-components";
 import { mobile } from "../../Responsive";
 
@@ -22,7 +23,7 @@ const TopPost=styled.div`
     align-items: center;
     padding: 20px;
     ${mobile({
-         
+          padding:'10px',
           width:'360px'          
          })}
 `
@@ -33,7 +34,7 @@ const TopPostInfo=styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     gap:8px;
-    margin-left:6px;
+    margin-left:10px;
   
 
 `

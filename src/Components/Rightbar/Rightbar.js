@@ -1,8 +1,8 @@
 import React from 'react';
 import onlinestatus_data from '../../data';
 import OnlineFriends from './OnlineFriends';
-import Friends from './Friends';
-import { Users } from '../../data';
+import Suggested from './Suggested';
+import { SuggestedUsers } from '../../data';
 import VideocamIcon from '@mui/icons-material/Videocam';
 import SearchIcon from '@mui/icons-material/Search';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
@@ -32,7 +32,7 @@ const Rightbar = () => {
          
              <C.Container>
                 <C.MenuTitle>Suggested For You</C.MenuTitle>
-                {Users.map(item=>{return <Friends key={item.id} Users={item} />})}               
+                {SuggestedUsers.map(item=>{return <Suggested key={item.id} Users={item} />})}               
             </C.Container>     
         </C.RightBarContainer>
         </>

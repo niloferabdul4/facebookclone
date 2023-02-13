@@ -74,10 +74,7 @@ const Leftbar = () => {
                 </C.MenuItems>   
                  
                  }
-                
-                 
-               
-                          
+                              
             </C.Wrapper>              
         </C.LeftbarContainer>
     );
