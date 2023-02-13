@@ -7,10 +7,11 @@ const ReelsContainer=styled.div`
     display:flex;
     flex-direction:row;
     justify-content: center;
+    margin:20px;
     align-items: center; 
      ${mobile({       
-      gap:'4px'
-               
+      
+      margin:'10px 0px'         
      })}
 
 `
@@ -31,13 +32,14 @@ const StoryContainer=styled.div`
         transform: scale(1.07);
     }
     ${mobile( {
-    width: '60px',
-    height: '100px',
+    width: '80px',
+    height: '130px',
    
     })
   }
 
 `
+
 
 const StoryTitle=styled.h3`
     position: absolute;
@@ -54,5 +56,4 @@ const StoryTitle=styled.h3`
 `
 
 
-export {ReelsContainer,StoryContainer,StoryTitle       
-}
+export {ReelsContainer,StoryContainer,StoryTitle}

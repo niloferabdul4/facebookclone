@@ -74,7 +74,7 @@ const Post = ({postId,photo,profilePic,username,timestamp,body}) => {
                 <Avatar src={profilePic} />
                 <C.TopPostInfo>
                     <C.PostHeading>{username}</C.PostHeading>
-                    <ReactTimeago  style={{fontSiize: '12px', color:'gray' }} date={new Date(timestamp?.toDate()).toLocaleString()} />
+                    <ReactTimeago  style={{fontSize: '12px', color:'gray' }} date={new Date(timestamp?.toDate()).toLocaleString()} />
                 </C.TopPostInfo>
             </C.TopPost>
             <C.CenterPost>

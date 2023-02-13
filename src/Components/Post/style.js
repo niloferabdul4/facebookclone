@@ -8,8 +8,10 @@ const PostContainer=styled.div`
     background-color: white;
     box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
     ${mobile({
-          marginTop:'6px',
-          width:'360px'          
+        
+          width:'360px',
+          margin:'15px 0px',
+          borderRadius:'2px'
          })}
 
 `
@@ -31,7 +33,7 @@ const TopPostInfo=styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     gap:8px;
-    margin-left:10px;
+    margin-left:6px;
   
 
 `
@@ -48,7 +50,7 @@ const PostMessage=styled.p`
     line-height:30px;
     padding: 10px;
     ${mobile({
-         fontSize:'15px' ,
+         fontSize:'14px' ,
          padding:'4px'        
          })}
 
@@ -135,7 +137,8 @@ const PostOption=styled.div`
         
     }
     ${mobile({
-       padding:'0px'        
+       padding:'0px' ,
+         
          })}
   
 

@@ -5,17 +5,19 @@ import { mobile } from "../../Responsive";
 const MessageContainer=styled.div`  
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin:50px 0px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
     width: 100%;
-    padding:5px;
+    padding:6px;
     ${mobile({
-          gap:'0px',
+          margin:'15px 0px',
           width:'360px',
-          margin:'20px 0px' ,  
-          boxShadow:'none'       
+          padding:'20px 0px' ,  
+          boxShadow:'none',
+          borderRadius:'2px'      
          })}
    
 `
@@ -23,13 +25,12 @@ const TopSection=styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom:0.2px solid lightgrey;
     padding:15px;
     ${mobile({
-          padding:'4px',
-          display:'flex',
-          justifyContent:'center',
+          padding:'12px 6px',       
+          justifyContent:'space-between',
           alignItems:'center'
          })}
    
@@ -40,10 +41,7 @@ const BottomSection=styled.div`
     display:flex;
     justify-content: space-around;
     align-items: center;
-    ${mobile({
-       padding:'0px 20px'        
-         })}
-  
+
 
 `
 
@@ -62,7 +60,7 @@ const Button=styled.button`
     ${mobile({
           height:'35px',
           width:'50px',
-          fontSize:'0.5rem',
+          fontSize:'0.75rem',
 
          })}
    
@@ -95,10 +93,11 @@ const Textarea=styled.textarea`
         }
         ${mobile({
           
-          height:'35px',
+          height:'34px',
           fontSize:'12px' ,         
           flex:'1',
-          margin:'0px 10px'       
+          margin:'0px 10px'  
+
          })}
 `
 
@@ -118,12 +117,17 @@ const UrlInput=styled.input`
 `
 
 const MessageSenderOptions=styled.div`
-        padding: 20px;
+        padding: 15px;
         display: flex;
         align-items:center;
         color:gray;
         margin: 5px;
         gap:8px;
+        ${mobile({
+          padding: '0px',
+          width:'100%' ,
+                
+         })}
         &:hover{
             background-color: #eff2f5;
             border-radius: 20px;
@@ -131,13 +135,10 @@ const MessageSenderOptions=styled.div`
         h3{
             cursor: pointer;
             ${mobile({
-         fontSize:'14px'         
+             fontSize:'12px'         
          })}
         }  
-        ${mobile({
-          padding: '0px',
-          width:'360px'          
-         })}
+       
 `
 
 const HiddenInput=styled.input`
@@ -149,6 +150,14 @@ const Emoji=styled.div`
             width: 100%;
             top: 20px;
             left: 100px;
+            ${mobile({
+             left:'0px',
+             padding  :'0px',
+             top:'10px',
+            
+         })}
+        
+
 `
 
 

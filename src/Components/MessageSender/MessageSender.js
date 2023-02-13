@@ -112,7 +112,7 @@ const MessageSender = () => {
                 </C.MessageSenderOptions>
                 <C.HiddenInput type='file' id='imageFile' onChange={handleFileChange} />
                 <C.MessageSenderOptions onClick={()=>setShowEmoji(!showEmoji)}>
-                    <EmojiEmotionsIcon  style={{color:'orange'}}/>
+                    <EmojiEmotionsIcon  style={{color:'orange'}} />
                     <h3>Feeling/Activity</h3>                    
                 </C.MessageSenderOptions>  
                 

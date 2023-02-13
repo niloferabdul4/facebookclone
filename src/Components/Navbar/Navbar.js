@@ -29,7 +29,7 @@ const Navbar = () => {
                  {/* Navbar is split into 3 areas : center, left & right */}
                 <LeftSection>
                         <Link to ='/' style={{textDecoration:'none'}}>
-                        <Logo>FaceBook</Logo> 
+                        <Logo>Socio</Logo> 
                         </Link>
                         <Search>
                             <SearchOutlinedIcon />

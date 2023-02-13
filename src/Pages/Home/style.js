@@ -12,9 +12,8 @@ const HomeContainer=styled.div`
     height: calc(100vh - 50px);
     ${mobile({
          gap:'0px',
-        // padding:'10px',          
-          margin:'15px 0px' ,
-          flex:'1'      
+         width:'380px',
+             
          })}
 
 `

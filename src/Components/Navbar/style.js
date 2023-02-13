@@ -14,9 +14,10 @@ const NavbarContainer=styled.div`
     z-index: 999;
     ${mobile({
        height:'40px',
+       width:'380px',
        display:'flex',
-       justifyContent:'space-between'
-
+       justifyContent:'space-between',
+      
     })}
 
 `
@@ -38,10 +39,7 @@ const CenterSection=styled.div`
       flex: 0.7%;
       justify-content:space-around;
       ${mobile({
-       
-       justifyContent:'center',
-       gap:'5px',
-       flex:'1'
+       display:'none' 
     
 
     })}
