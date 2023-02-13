@@ -12,7 +12,7 @@ const NavbarContainer=styled.div`
     top:0;
     background-color: white;
     z-index: 999;
-    ${mobile({
+        ${mobile({
        height:'40px',
        width:'380px',
        display:'flex',
