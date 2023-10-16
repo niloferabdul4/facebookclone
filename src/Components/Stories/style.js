@@ -10,8 +10,8 @@ const ReelsContainer=styled.div`
     margin:20px;
     align-items: center; 
      ${mobile({       
-      
-      margin:'10px 0px'         
+      justifyContent:'flex-start',
+      margin:'10px 4px'         
      })}
 
 `
@@ -32,8 +32,8 @@ const StoryContainer=styled.div`
         transform: scale(1.07);
     }
     ${mobile( {
-    width: '80px',
-    height: '130px',
+    width: '60px',
+    height: '120px',
    
     })
   }

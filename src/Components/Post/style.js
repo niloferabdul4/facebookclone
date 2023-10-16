@@ -10,7 +10,7 @@ const PostContainer=styled.div`
     box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
     ${mobile({
         
-          width:'360px',
+          width:'100%',
           margin:'15px 0px',
           borderRadius:'2px'
          })}

@@ -12,7 +12,7 @@ const HomeContainer=styled.div`
     height: calc(100vh - 50px);
     ${mobile({
          gap:'0px',
-         width:'380px',
+         width:'100%',
              
          })}
 

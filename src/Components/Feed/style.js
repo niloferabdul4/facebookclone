@@ -14,7 +14,7 @@ const FeedContainer=styled.div`
   ${mobile({
           gap:'0px',
            padding:'0px 0px',
-           margin:'10px',
+           margin:'10px 0px',
            flex:'1'
          })}
 

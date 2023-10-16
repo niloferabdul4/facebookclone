@@ -14,7 +14,7 @@ const MessageContainer=styled.div`
     padding:6px;
     ${mobile({
           margin:'15px 0px',
-          width:'360px',
+          width:'100%',
           padding:'20px 0px' ,  
           boxShadow:'none',
           borderRadius:'2px'      

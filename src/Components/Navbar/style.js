@@ -14,7 +14,7 @@ const NavbarContainer=styled.div`
     z-index: 999;
         ${mobile({
        height:'40px',
-       width:'380px',
+       width:'100%',
        display:'flex',
        justifyContent:'space-between',
       

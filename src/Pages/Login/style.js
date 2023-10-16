@@ -9,10 +9,9 @@ const LoginContainer=styled.div`
   align-items: center;
   justify-content: center;
   ${mobile({
-         flexDirection:'column',
+        
          gap:'0px',
-         width:'380px',
-             
+          margin:'auto'
          })}
 
   `
@@ -27,9 +26,10 @@ const Card=styled.div`
 
   ${mobile({
          height:'500px',
-         width:'280px' ,
+         width:'55%' ,
          flexDirection:'column',
-         borderRadius:'6px'
+         borderRadius:'6px',
+         margin: 'auto'
          })}
 
 `
