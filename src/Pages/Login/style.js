@@ -9,6 +9,7 @@ const LoginContainer=styled.div`
   align-items: center;
   justify-content: center;
   ${mobile({
+         flexDirection:'column',
          gap:'0px',
          width:'380px',
              
